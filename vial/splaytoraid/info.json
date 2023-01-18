@@ -3,13 +3,13 @@
     "keyboard_name": "splaytoraid40",
     "maintainer": "freya-irl",
     "url": "https://github.com/freya-irl",
-    "processor": "RP2040",
-    "bootloader": "rp2040",
+    "processor": "atmega32u4",
+    "bootloader": "qmk-dfu",
     "debounce": 5,
     "diode_direction": "COL2ROW",
     "matrix_pins": {
-        "cols": ["GP28", "GP27", "GP26", "GP29", "GP20", "GP22", "GP23"],
-        "rows": ["GP0", "GP1", "GP2", "GP4", "GP6", "GP7", "GP8", "GP5"]
+        "cols": ["F5", "F6", "F7", "F4", "B3", "B1", "B2"],
+        "rows": ["D3", "D2", "D1", "D4", "D7", "E6", "B4", "C6"]
     },
     "matrix_size": {
         "cols": 7,
@@ -27,20 +27,22 @@
         "bootmagic": true,
         "console": true,
         "mousekey": true,
-        "nkro": true
+        "nkro": true,
+        "lto": true
+
     },
     "encoder": {
         "enabled": true,
         "rotary": [
             {
-                "pin_a": "GP9",
-                "pin_b": "GP21",
+                "pin_a": "B5",
+                "pin_b": "B6",
                 "resolution": 4
             }
         ]
     },
     "rgblight": {
-        "pin": "GP3",
+        "pin": "D0",
         "led_count": 18
     },
     "rgb_matrix": {
