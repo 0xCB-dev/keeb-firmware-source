@@ -1,0 +1,10 @@
+// Copyright 2024 Conor Burns (@Conor-Burns)
+// SPDX-License-Identifier: GPL-2.0-or-later
+#pragma once
+
+#define RGBLIGHT_EFFECT_BREATHING
+#define RGBLIGHT_DEFAULT_MODE RGBLIGHT_EFFECT_BREATHING + 2
+#define RGBLIGHT_DEFAULT_HUE 152
+#define RGBLIGHT_DEFAULT_SAT 232
+#define RGBLIGHT_DEFAULT_VAR 100
+#define RGBLIGHT_DEFAULT_SPD 2

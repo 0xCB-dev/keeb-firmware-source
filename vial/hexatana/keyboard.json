@@ -1,0 +1,121 @@
+{
+    "manufacturer": "ThePurox",
+    "keyboard_name": "hexatana",
+    "maintainer": "ThePurox",
+    "url": "https://github.com/ThePurox/Hexatana-RGB",
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "diode_direction": "COL2ROW",
+    "matrix_pins": {
+        "cols": ["GP1", "GP2", "GP3", "GP29", "GP27", "GP28", "GP26"],
+        "rows": ["GP4", "GP8", "GP9", "GP15", "GP10", "GP12"]
+    },
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x6666",
+        "vid": "0xCB00"
+    },
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "rgb_matrix": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "qmk": {
+        "locking": {
+            "enabled": true,
+            "resync": true
+        }
+    },
+    "ws2812": {
+        "driver": "vendor",
+        "pin": "GP16"
+    },
+    "rgb_matrix": {
+        "driver": "ws2812",
+        "layout": [
+            { "flags": 2, "x":112, "y": 17 },
+            { "flags": 4, "matrix": [0, 2], "x":134, "y": 0 },
+            { "flags": 4, "matrix": [1, 1], "x":152, "y": 0 },
+            { "flags": 4, "matrix": [0, 1], "x":170, "y": 0 },
+            { "flags": 4, "matrix": [1, 0], "x":188, "y": 0 },
+            { "flags": 4, "matrix": [0, 0], "x":206, "y": 0 },
+            { "flags": 4, "matrix": [2, 0], "x":215, "y": 17 },
+            { "flags": 4, "matrix": [3, 0], "x":197, "y": 17 },
+            { "flags": 4, "matrix": [2, 1], "x":179, "y": 17 },
+            { "flags": 4, "matrix": [3, 1], "x":161, "y": 17 },
+            { "flags": 4, "matrix": [2, 2], "x":143, "y": 17 },
+            { "flags": 4, "matrix": [4, 2], "x":152, "y": 34 },
+            { "flags": 4, "matrix": [5, 1], "x":170, "y": 34 },
+            { "flags": 4, "matrix": [4, 1], "x":188, "y": 34 },
+            { "flags": 4, "matrix": [5, 0], "x":206, "y": 34 },
+            { "flags": 4, "matrix": [4, 0], "x":224, "y": 34 },
+            { "flags": 4, "matrix": [0, 6], "x":161, "y": 47 },
+            { "flags": 4, "matrix": [1, 6], "x":143, "y": 47 },
+            { "flags": 4, "matrix": [2, 6], "x":134, "y": 64 },
+            { "flags": 4, "matrix": [3, 6], "x":90, "y": 64 },
+            { "flags": 4, "matrix": [4, 6], "x":81, "y": 47 },
+            { "flags": 4, "matrix": [5, 6], "x":63, "y": 47 },
+            { "flags": 4, "matrix": [5, 3], "x":72, "y": 34 },
+            { "flags": 4, "matrix": [4, 4], "x":54, "y": 34 },
+            { "flags": 4, "matrix": [5, 4], "x":36, "y": 34 },
+            { "flags": 4, "matrix": [4, 5], "x":18, "y": 34 },
+            { "flags": 4, "matrix": [5, 5], "x":0, "y": 34 },
+            { "flags": 4, "matrix": [3, 5], "x":9, "y": 17 },
+            { "flags": 4, "matrix": [2, 5], "x":27, "y": 17 },
+            { "flags": 4, "matrix": [3, 4], "x":45, "y": 17 },
+            { "flags": 4, "matrix": [2, 4], "x":63, "y": 17 },
+            { "flags": 4, "matrix": [3, 3], "x":81, "y": 17 },
+            { "flags": 4, "matrix": [1, 3], "x":90, "y": 0 },
+            { "flags": 4, "matrix": [0, 4], "x":72, "y": 0 },
+            { "flags": 4, "matrix": [1, 4], "x":54, "y": 0 },
+            { "flags": 4, "matrix": [0, 5], "x":36, "y": 0 },
+            { "flags": 4, "matrix": [1, 5], "x":18, "y": 0 }
+        ]
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"label": "k00", "matrix": [1, 5], "x": 0, "y": 0},
+                {"label": "k01", "matrix": [0, 5], "x": 1, "y": 0},
+                {"label": "k02", "matrix": [1, 4], "x": 2, "y": 0},
+                {"label": "k03", "matrix": [0, 4], "x": 3, "y": 0},
+                {"label": "k04", "matrix": [1, 3], "x": 4, "y": 0},
+                {"label": "k05", "matrix": [0, 2], "x": 5, "y": 0},
+                {"label": "k06", "matrix": [1, 1], "x": 6, "y": 0},
+                {"label": "k07", "matrix": [0, 1], "x": 7, "y": 0},
+                {"label": "k08", "matrix": [1, 0], "x": 8, "y": 0},
+                {"label": "k09", "matrix": [0, 0], "x": 9, "y": 0},
+                {"label": "k10", "matrix": [3, 5], "x": 0, "y": 1},
+                {"label": "k11", "matrix": [2, 5], "x": 1, "y": 1},
+                {"label": "k12", "matrix": [3, 4], "x": 2, "y": 1},
+                {"label": "k13", "matrix": [2, 4], "x": 3, "y": 1},
+                {"label": "k14", "matrix": [3, 3], "x": 4, "y": 1},
+                {"label": "k15", "matrix": [2, 2], "x": 5, "y": 1},
+                {"label": "k16", "matrix": [3, 1], "x": 6, "y": 1},
+                {"label": "k17", "matrix": [2, 1], "x": 7, "y": 1},
+                {"label": "k18", "matrix": [3, 0], "x": 8, "y": 1},
+                {"label": "k19", "matrix": [2, 0], "x": 9, "y": 1},
+                {"label": "k20", "matrix": [5, 5], "x": 0, "y": 2},
+                {"label": "k21", "matrix": [4, 5], "x": 1, "y": 2},
+                {"label": "k22", "matrix": [5, 4], "x": 2, "y": 2},
+                {"label": "k23", "matrix": [4, 4], "x": 3, "y": 2},
+                {"label": "k24", "matrix": [5, 3], "x": 4, "y": 2},
+                {"label": "k25", "matrix": [4, 2], "x": 5, "y": 2},
+                {"label": "k26", "matrix": [5, 1], "x": 6, "y": 2},
+                {"label": "k27", "matrix": [4, 1], "x": 7, "y": 2},
+                {"label": "k28", "matrix": [5, 0], "x": 8, "y": 2},
+                {"label": "k29", "matrix": [4, 0], "x": 9, "y": 2},
+                {"label": "k30", "matrix": [5, 6], "x": 2, "y": 3},
+                {"label": "k31", "matrix": [4, 6], "x": 3, "y": 3},
+                {"label": "k32", "matrix": [3, 6], "x": 4, "y": 4},
+                {"label": "k33", "matrix": [2, 6], "x": 5, "y": 4},
+                {"label": "k34", "matrix": [1, 6], "x": 6, "y": 3},
+                {"label": "k35", "matrix": [0, 6], "x": 7, "y": 3}
+            ]
+        }
+    }
+}
