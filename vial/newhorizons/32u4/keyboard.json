@@ -5,9 +5,7 @@
     },
     "encoder": {
         "enabled": true,
-        "rotary": [
-            {"pin_a": "D5", "pin_b": "C7", "resolution": 4}
-        ]
+        "rotary": [{ "pin_a": "D5", "pin_b": "C7", "resolution": 4 }]
     },
     "features": {
         "audio": false,
@@ -18,7 +16,6 @@
         "encoder": true,
         "encoder_map": true,
         "extrakey": true,
-        "lto": true,
         "mousekey": true,
         "nkro": false,
         "rgb_matrix": true,
