@@ -32,7 +32,7 @@ https://get.vial.today/docs/porting-to-vial.html#1-prepare-your-build-environmen
 2) Copy the desired keyboard folder from this repo into:
    vial-qmk/keyboards/0xcb/<keyboard_name>/
 
-3) Build (typical):
+3) Build:
    `qmk compile -kb 0xcb/<keyboard_name> -km vial`
 
 ## Precompiled firmware
