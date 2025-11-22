@@ -1,9 +1,10 @@
 # El Chibre
 
 Designed by [Dino Xue](https://github.com/dinobx)
+
 [Personal Project Gallery](https://kbbd.notion.site/Jurassic-Keyboards-1705a54918cf8037a4b6f6310366e545)
 
-Find Build Guides on [KeebSupply](https://files.keeb.supply/products/ElChibre/ElChibre%20Build%20Guide.pdf)
+Find the [Build Guide](https://files.keeb.supply/products/ElChibre/ElChibre%20Build%20Guide.pdf) on [KeebSupply](https://keeb.supply/)
 
 Make example for this keyboard (after setting up your build environment):
 
