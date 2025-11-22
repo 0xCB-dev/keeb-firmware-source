@@ -14,8 +14,8 @@
         "nkro": true
     },
     "matrix_pins": {
-        "cols": ["GP9", "GP8", "GP4", "GP3", "GP2",       "GP29", "GP28", "GP27", "GP23", "GP21"],
-        "rows": ["GP7", "GP6", "GP5", "GP1",              "GP20", "GP22", "GP26", "GP0"]
+        "cols": ["GP9", "GP8", "GP5", "GP3", "GP2",       "GP29", "GP28", "GP26", "GP23", "GP21"],
+        "rows": ["GP7", "GP6", "GP4", "GP1",              "GP22", "GP20", "GP27", "GP0"]
     },
     "processor": "RP2040",
     "usb": {
